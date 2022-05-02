@@ -16,3 +16,29 @@ h2{
     margin: 20px;
     padding: 20px;
 }
+/* div p{
+    color: palevioletred;
+}
+div .error{
+    color: red; */
+/* } */
+div{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+}
+p{
+    border: inherit;
+    margin: inherit;
+    color: cyan;
+}
+/* a[href]{
+    background-color: rgb(220, 182, 255);
+} */
+a[href*="nintendo"]{
+    background-color: rgb(182, 117, 243);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
