@@ -7,7 +7,6 @@ h1 {
     text-align: center;
 }
 p{
-    color: slategray;
     text-align: center;
     line-height: 30px;
     letter-spacing: 3px;
@@ -26,4 +25,20 @@ li{
     list-style-type: square;
     /* text-shadow: 2px 2px lightgray; */
     text-shadow: 2px 2px #E9E9E9;
+}
+p.error{
+    color: red;
+}
+p.success{
+    color: green;
+}
+p.success.feedback{
+    border: 1px dashed green;
+}
+div.error{
+    color:rgb(89, 16, 31);
+}
+#content{
+    background-color: yellowgreen;
+    padding: 20px;
 }
