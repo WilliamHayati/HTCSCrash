@@ -1,0 +1,18 @@
+span{
+    display: block;
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
+h1{
+    display: inline;
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
+h2{
+    display: inline-block;
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
